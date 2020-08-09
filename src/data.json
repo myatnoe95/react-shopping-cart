@@ -1,0 +1,68 @@
+{
+    "products":[
+        {
+            "id": "1",
+            "image": "/images/egg.jpg",
+            "title": "Egg",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["X","M","L"],
+            "price": 29.9
+        },
+        {
+            "id": "2",
+            "image": "/images/kywal_kaw.jpg",
+            "title": "Kywal Kaw",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["M","L"],
+            "price": 29.9
+        },
+        {
+            "id": "3",
+            "image": "/images/mushroom.jpg",
+            "title": "Mushroom",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["S","M","L"],
+            "price": 29.9
+        },
+        {
+            "id": "4",
+            "image": "/images/ngone_egg.jpg",
+            "title": "Ngone Egg",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["S"],
+            "price": 29.9
+        },
+        {
+            "id": "5",
+            "image": "/images/pan_thittaw.jpg",
+            "title": "Pan Thittaw",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["S","M","L"],
+            "price": 29.9
+        },
+        {
+            "id": "6",
+            "image": "/images/pepper.jpg",
+            "title": "Pepper",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["L","XL"],
+            "price": 29.9
+        },
+        {
+            "id": "7",
+            "image": "/images/potato.jpg",
+            "title": "Potato",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["M","L","XL","XXL"],
+            "price": 29.9
+        },
+        {
+            "id": "8",
+            "image": "/images/sweet_potato.jpg",
+            "title": "Sweet Potato",
+            "description": "This is all for the latest product! U get it now!",
+            "availableSizes": ["S","M","L","XL"],
+            "price": 10
+        }
+    ]
+}

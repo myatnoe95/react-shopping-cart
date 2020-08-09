@@ -1,20 +1,34 @@
 //Testing Feature branch
-import React from 'react';
+import React,{Component} from 'react';
+import data from './data.json';
 
-function App() {
-  return (
-    <div className="grid-container">
+class App extends Component{
+  constructor(props){
+    super(props);
+    this.state={
+      product: data.products,
+      size: "",
+      sort: ""
+    }
+  }
+   render(){
+     return(
+      <div className="grid-container">
       <header>
         <a href="/">React Shopping Cart</a>
       </header>
       <main>
-         Product Lists
+        <div className="content">
+          <div className="main"> Products </div>
+          <div className="sidebar">Cart Items</div>
+        </div>
       </main>
       <footer>
         All right is reserved!
       </footer>
     </div>
-  );
+     )
+   }
 }
 
 export default App;
